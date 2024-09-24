@@ -1,0 +1,18 @@
+{
+  "name": "personal-assistant",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.1",
+    "ai": "^3.4.0",
+    "dotenv": "^16.4.5",
+    "hono": "^4.6.2",
+    "ollama-ai-provider": "^0.15.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1"
+  }
+}
